@@ -1,0 +1,186 @@
+{
+  "funnel": [
+    {
+      "stage": "registered",
+      "users": 12000
+    },
+    {
+      "stage": "opened",
+      "users": 12000
+    },
+    {
+      "stage": "activated",
+      "users": 8503
+    },
+    {
+      "stage": "experiment_eligible",
+      "users": 5400
+    }
+  ],
+  "retention": [
+    {
+      "day": 1,
+      "eligible": 8429,
+      "retained": 2987,
+      "rate": 0.3544
+    },
+    {
+      "day": 7,
+      "eligible": 7851,
+      "retained": 1613,
+      "rate": 0.2055
+    },
+    {
+      "day": 14,
+      "eligible": 7205,
+      "retained": 763,
+      "rate": 0.1059
+    }
+  ],
+  "sources": [
+    {
+      "source_name": "Organic",
+      "registered": 3537,
+      "activated": 2757,
+      "activation_rate": 0.7795,
+      "cost": 0.0,
+      "cost_per_activation": 0.0
+    },
+    {
+      "source_name": "Partner communities",
+      "registered": 3070,
+      "activated": 2265,
+      "activation_rate": 0.7378,
+      "cost": 165600.0,
+      "cost_per_activation": 73.11
+    },
+    {
+      "source_name": "Sports media",
+      "registered": 3003,
+      "activated": 2103,
+      "activation_rate": 0.7003,
+      "cost": 230000.0,
+      "cost_per_activation": 109.37
+    },
+    {
+      "source_name": "Paid social",
+      "registered": 2390,
+      "activated": 1378,
+      "activation_rate": 0.5766,
+      "cost": 322000.0,
+      "cost_per_activation": 233.67
+    }
+  ],
+  "groups": [
+    {
+      "variant": "community",
+      "assigned_total": 2678,
+      "n": 2487,
+      "retained": 567,
+      "opted_out_n": 98,
+      "d7": 0.228,
+      "week_return": 0.9176,
+      "opt_out": 0.0394
+    },
+    {
+      "variant": "email",
+      "assigned_total": 2722,
+      "n": 2517,
+      "retained": 483,
+      "opted_out_n": 59,
+      "d7": 0.1919,
+      "week_return": 0.8808,
+      "opt_out": 0.0234
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "2026-08",
+      "day": 1,
+      "eligible": 2901,
+      "retained": 1035,
+      "rate": 0.3568
+    },
+    {
+      "cohort": "2026-08",
+      "day": 7,
+      "eligible": 2901,
+      "retained": 594,
+      "rate": 0.2048
+    },
+    {
+      "cohort": "2026-08",
+      "day": 14,
+      "eligible": 2901,
+      "retained": 314,
+      "rate": 0.1082
+    },
+    {
+      "cohort": "2026-09",
+      "day": 1,
+      "eligible": 2733,
+      "retained": 969,
+      "rate": 0.3546
+    },
+    {
+      "cohort": "2026-09",
+      "day": 7,
+      "eligible": 2733,
+      "retained": 577,
+      "rate": 0.2111
+    },
+    {
+      "cohort": "2026-09",
+      "day": 14,
+      "eligible": 2733,
+      "retained": 293,
+      "rate": 0.1072
+    },
+    {
+      "cohort": "2026-10",
+      "day": 1,
+      "eligible": 2795,
+      "retained": 983,
+      "rate": 0.3517
+    },
+    {
+      "cohort": "2026-10",
+      "day": 7,
+      "eligible": 2217,
+      "retained": 442,
+      "rate": 0.1994
+    },
+    {
+      "cohort": "2026-10",
+      "day": 14,
+      "eligible": 1571,
+      "retained": 156,
+      "rate": 0.0993
+    }
+  ],
+  "users": 12000,
+  "events": 59449,
+  "checks": {
+    "foreign_keys": true,
+    "no_events_before_registration": true,
+    "no_events_after_cutoff": true,
+    "assignment_at_first_read": true,
+    "eligible_assignments": true,
+    "communication_matches_assignment": true
+  },
+  "experiment": {
+    "difference": 0.03609041149855291,
+    "ci_low": 0.013539262126209393,
+    "ci_high": 0.05864156087089643,
+    "p_value": 0.0017194100027514761,
+    "optout_difference": 0.01596430161512092,
+    "optout_ci_low": 0.006299569432460874,
+    "optout_ci_high": 0.025629033797780965,
+    "srm_p_value": 0.5493301657483189,
+    "required_per_group": 1627,
+    "planning_baseline": 0.19,
+    "planning_mde": 0.04,
+    "alpha": 0.05,
+    "power": 0.8
+  }
+}
